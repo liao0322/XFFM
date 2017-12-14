@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "XFTabBarController.h"
+#import "XFTabBar.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    XFTabBarController *rootVC = [XFTabBarController tabBarControllerWithAddChildVCsBlock:^(XFTabBarController *tabBarVC) {
+        [tabBarVC addChildVC:[UIViewController new] title:nil normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];
+        [tabBarVC addChildVC:[UIViewController new] title:nil normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_h" isRequiredNavController:YES];
+        [tabBarVC addChildVC:[UIViewController new] title:nil normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
+        [tabBarVC addChildVC:[UIViewController new] title:nil normalImageName:@"tabbar_me_n" selectedImageName:@"tabbar_me_h" isRequiredNavController:YES];
+    }];
+    
+    XFTabBar *tabbar = (XFTabBar *)rootVC.tabBar;
+    tabbar.middleClickBlock = ^(BOOL isPlaying) {
+        if (isPlaying) {
+            NSLog(@"播放");
+        }else {
+            NSLog(@"暂停");
+        }
+    };
+    
+    self.window.rootViewController = rootVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -15,6 +15,14 @@
 		76A36E3C1FE214BC00B2C50D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E3B1FE214BC00B2C50D /* main.m */; };
 		76A36E461FE214BC00B2C50D /* XFFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E451FE214BC00B2C50D /* XFFMTests.m */; };
 		76A36E511FE214BC00B2C50D /* XFFMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E501FE214BC00B2C50D /* XFFMUITests.m */; };
+		76A36E641FE21F8100B2C50D /* XFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E631FE21F8100B2C50D /* XFTabBarController.m */; };
+		76A36E681FE227B500B2C50D /* XFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E671FE227B500B2C50D /* XFNavigationController.m */; };
+		76A36E721FE22CED00B2C50D /* UIImage+XFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E711FE22CED00B2C50D /* UIImage+XFExtension.m */; };
+		76A36E751FE2431600B2C50D /* XFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E741FE2431600B2C50D /* XFTabBar.m */; };
+		76A36E791FE245F700B2C50D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E771FE245F700B2C50D /* UIView+Frame.m */; };
+		76A36E821FE2470100B2C50D /* XFTabBarMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E811FE2470100B2C50D /* XFTabBarMiddleView.m */; };
+		76A36E841FE2471100B2C50D /* XFTabBarMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A36E831FE2471100B2C50D /* XFTabBarMiddleView.xib */; };
+		76A36E871FE24B5100B2C50D /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A36E851FE24B5100B2C50D /* CALayer+PauseAimate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,21 @@
 		76A36E4C1FE214BC00B2C50D /* XFFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A36E501FE214BC00B2C50D /* XFFMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFFMUITests.m; sourceTree = "<group>"; };
 		76A36E521FE214BC00B2C50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A36E621FE21F8100B2C50D /* XFTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFTabBarController.h; sourceTree = "<group>"; };
+		76A36E631FE21F8100B2C50D /* XFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFTabBarController.m; sourceTree = "<group>"; };
+		76A36E661FE227B500B2C50D /* XFNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFNavigationController.h; sourceTree = "<group>"; };
+		76A36E671FE227B500B2C50D /* XFNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFNavigationController.m; sourceTree = "<group>"; };
+		76A36E701FE22CED00B2C50D /* UIImage+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XFExtension.h"; sourceTree = "<group>"; };
+		76A36E711FE22CED00B2C50D /* UIImage+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XFExtension.m"; sourceTree = "<group>"; };
+		76A36E731FE2431600B2C50D /* XFTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFTabBar.h; sourceTree = "<group>"; };
+		76A36E741FE2431600B2C50D /* XFTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFTabBar.m; sourceTree = "<group>"; };
+		76A36E771FE245F700B2C50D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		76A36E781FE245F700B2C50D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		76A36E801FE2470100B2C50D /* XFTabBarMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFTabBarMiddleView.h; sourceTree = "<group>"; };
+		76A36E811FE2470100B2C50D /* XFTabBarMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFTabBarMiddleView.m; sourceTree = "<group>"; };
+		76A36E831FE2471100B2C50D /* XFTabBarMiddleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XFTabBarMiddleView.xib; sourceTree = "<group>"; };
+		76A36E851FE24B5100B2C50D /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		76A36E861FE24B5100B2C50D /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +124,9 @@
 		76A36E2B1FE214BC00B2C50D /* XFFM */ = {
 			isa = PBXGroup;
 			children = (
-				76A36E2C1FE214BC00B2C50D /* AppDelegate.h */,
-				76A36E2D1FE214BC00B2C50D /* AppDelegate.m */,
+				76A36E5F1FE21F3000B2C50D /* AppDelegate */,
+				76A36E6E1FE22C8300B2C50D /* Categories */,
+				76A36E601FE21F3E00B2C50D /* Modules */,
 				76A36E2F1FE214BC00B2C50D /* ViewController.h */,
 				76A36E301FE214BC00B2C50D /* ViewController.m */,
 				76A36E321FE214BC00B2C50D /* Main.storyboard */,
@@ -130,6 +154,84 @@
 				76A36E521FE214BC00B2C50D /* Info.plist */,
 			);
 			path = XFFMUITests;
+			sourceTree = "<group>";
+		};
+		76A36E5F1FE21F3000B2C50D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				76A36E2C1FE214BC00B2C50D /* AppDelegate.h */,
+				76A36E2D1FE214BC00B2C50D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		76A36E601FE21F3E00B2C50D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				76A36E6B1FE22C0200B2C50D /* MainModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		76A36E6B1FE22C0200B2C50D /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				76A36E6C1FE22C1000B2C50D /* Controllers */,
+				76A36E6D1FE22C1600B2C50D /* Views */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		76A36E6C1FE22C1000B2C50D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76A36E621FE21F8100B2C50D /* XFTabBarController.h */,
+				76A36E631FE21F8100B2C50D /* XFTabBarController.m */,
+				76A36E661FE227B500B2C50D /* XFNavigationController.h */,
+				76A36E671FE227B500B2C50D /* XFNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		76A36E6D1FE22C1600B2C50D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76A36E731FE2431600B2C50D /* XFTabBar.h */,
+				76A36E741FE2431600B2C50D /* XFTabBar.m */,
+				76A36E801FE2470100B2C50D /* XFTabBarMiddleView.h */,
+				76A36E811FE2470100B2C50D /* XFTabBarMiddleView.m */,
+				76A36E831FE2471100B2C50D /* XFTabBarMiddleView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76A36E6E1FE22C8300B2C50D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				76A36E861FE24B5100B2C50D /* CALayer+PauseAimate.h */,
+				76A36E851FE24B5100B2C50D /* CALayer+PauseAimate.m */,
+				76A36E761FE245F700B2C50D /* UIView */,
+				76A36E6F1FE22C9E00B2C50D /* UIImage */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		76A36E6F1FE22C9E00B2C50D /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				76A36E701FE22CED00B2C50D /* UIImage+XFExtension.h */,
+				76A36E711FE22CED00B2C50D /* UIImage+XFExtension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		76A36E761FE245F700B2C50D /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				76A36E771FE245F700B2C50D /* UIView+Frame.m */,
+				76A36E781FE245F700B2C50D /* UIView+Frame.h */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +296,7 @@
 		76A36E211FE214BC00B2C50D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XF;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = liaoxf;
 				TargetAttributes = {
@@ -241,6 +344,7 @@
 				76A36E391FE214BC00B2C50D /* LaunchScreen.storyboard in Resources */,
 				76A36E361FE214BC00B2C50D /* Assets.xcassets in Resources */,
 				76A36E341FE214BC00B2C50D /* Main.storyboard in Resources */,
+				76A36E841FE2471100B2C50D /* XFTabBarMiddleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +369,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A36E791FE245F700B2C50D /* UIView+Frame.m in Sources */,
+				76A36E751FE2431600B2C50D /* XFTabBar.m in Sources */,
 				76A36E311FE214BC00B2C50D /* ViewController.m in Sources */,
+				76A36E641FE21F8100B2C50D /* XFTabBarController.m in Sources */,
 				76A36E3C1FE214BC00B2C50D /* main.m in Sources */,
+				76A36E821FE2470100B2C50D /* XFTabBarMiddleView.m in Sources */,
+				76A36E681FE227B500B2C50D /* XFNavigationController.m in Sources */,
 				76A36E2E1FE214BC00B2C50D /* AppDelegate.m in Sources */,
+				76A36E721FE22CED00B2C50D /* UIImage+XFExtension.m in Sources */,
+				76A36E871FE24B5100B2C50D /* CALayer+PauseAimate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
